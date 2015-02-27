@@ -1,3 +1,74 @@
-<div class="main">
-  <h2> HOME </h2>
+<div class="row">
+<div class="col-sm-8">
+  <h2> Services </h2>
+  <p> I'm an independant contractor in DevOps and here are some of the services I can provide for your company</p>
+  <h3>Cloud Infrastructure</h3>  
+  <p>If you're a small business and don't want to spend a lot of time and money purchasing servers and finding a colo, then virtual infrastructure is perfect for you.  It allows a very dynamic environment where you can create and destroy servers in minutes.  I can do anything from help a small company create an initial setup, with a few servers, to helping larger companies with automating launching, provisioning, and configuring instances.  I can use autoscaling to scale up and down, and use load balencers to help get towards zero downtime.  I can use S3 to store valuble and highly accessed data.  I can setup a dns infrastructure to make sense of all your severs.   </p>
+  <p>I have experience with:
+  <ul>
+    <li>AWS (Amazon Web Services). Using services such as S3, EC2, RDS, Route53, Elastic Bean Stalk... Just to name a few.</li>
+    <li>Rackspace</li>
+    <li>Digital Ocean</li>
+    <li>Linode</li>
+    <li>Google Cloud</li>
+  </ul></p>
+  <h3>Configuration Management</h3>  
+  <p>At some point you'll want to be able to configure a server without having to spend time manually setting everything up.  This is where configuration management comes in.  It will allow you to fully configure one of your servers with only one command.  This will also help with dynamic environments where you have many servers that all need to be updated simultaniously.  I use software to manage all configuration so that you know your staging server is exactly the same as production and will run code the same way.</p>
+  <p> I have experience with:
+  <ul>
+    <li>Puppet</li>
+    <li>Chef</li>
+    <li>Ansible</li>
+  </ul></p>
+  <h3>Scripting</h3>  
+  <p>Sometimes you'll want to automate random tasks, and I can do this with scripting.  I have writen scripts to do anything from automate backups to monitor cronjobs for data <a href="cronmon">cronmon</a>.  I'm most comfortable in Bash or Ruby, but I can easy learn any other scripting language quickly.  Please check out my <a href="#/projects">projects</a> page to see some examples of things I've coded.</p>
+  <p>I have experience with:
+  <ul>
+    <li>Bash</li>
+    <li>Ruby</li>
+    <li>Python</li>
+  </ul></p>
+  <h3> Continous Integration</h3> 
+  <p>This is a great way to increase developer productivity and build a more solid workflow to avoid problems.  I've setup automated builds on pull requests or pushes to github.  A build can do anything from compile the source code to run tests to actually deploying to a live staging or production server.</p>
+  <p> I have experience with:
+  <ul>
+    <li>Jenkins</li>
+    <li>Travis CI</li>
+  </ul></p>
+  <h3>Monitoring</h3>  
+  <p>You want to be able to easy access data about your servers or get alerts when things go wrong?  Don't we all?  Monitoring is a great way to do this.  I can create you one dash board where you can see things like cpu useage, memory useage, or even how many requests per minute ever server is recieving.  The sky is really the limit here, if you can think of something metric you'd like to see, I can probably build it.</p>
+  <p> I have experience with:
+  <ul>
+    <li>Ganglia</li>
+    <li>Nagios</li>
+    <li>Sensu</li>
+    <li>Graphite</li>
+    <li>Statsd</li>
+  </ul></p>
+  <h3>Consolidated Logging</h3>
+  <p>This is a great way to get logs from many servers, parse them, and make them easily searchable.  This makes it much easier for developers to easily find the logs that they need to from production, especially when you have many servers and many layers.  You can get as complicated as having a Transaction ID that gets sent down the full stack, so that you can see all logs from frontend to backend to db all with one search.</p> 
+  <p>I have experience with:
+  <ul>
+    <li>Elastic Search</li>
+    <li>Log Stash</li>
+    <li>Kibana</li>
+    <li>Grey Log 2</li>
+    <li>Loggly</li>
+    <li>Paper Trail</li>
+  </ul></p>
+
+
 </div>
+<div class="col-sm-4">
+  <img src="images/aws.jpg" class="img-responsive center-block">
+  <img src="images/rackspace.png" class="img-responsive center-block">
+  <img src="images/Digital-ocean.png" class="img-responsive center-block">
+  <img src="images/puppet.jpg" class="img-responsive center-block"><br />
+  <img src="images/chef.svg" class="center-block" height="120" width="120"><br />
+  <img src="images/ruby.png" class="center-block" height="135" width="135"><br />
+  <img src="images/ganglia.jpg" class="img-responsive center-block">
+  <img src="images/nagios.jpg" class="img-responsive center-block">
+  <img src="images/loggly.png" class="img-responsive center-block">
+</div>
+</div>
+<img src="images/file-logstash-es-kibana.png" class="img-responsive center-block">
